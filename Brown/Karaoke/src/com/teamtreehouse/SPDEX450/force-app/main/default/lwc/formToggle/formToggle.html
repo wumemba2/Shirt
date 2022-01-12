@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <template if:true={editMode}>
+            <lightning-button label="View" onclick={handleChange}></lightning-button>
+            <c-opp-record-form record-id={recordId}
+                               form-mode="edit"
+                               object-api-name={objectApiName}
+                               oncancel={handleCancel}
+                               onsave={handleSave}></c-opp-record-form>
+        </template>
+        <template if:false={editMode}>
+            <lightning-button label="Edit" onclick={handleChange}></lightning-button>
+            <c-opp-record-form record-id={recordId}
+                               form-mode="readonly"
+                               object-api-name={objectApiName}
+                               ></c-opp-record-form>
+        </template>
+    </div>
+</template>

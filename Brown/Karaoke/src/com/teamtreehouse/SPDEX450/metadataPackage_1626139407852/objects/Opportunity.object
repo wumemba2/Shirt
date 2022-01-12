@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>Force_Future_Close_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>Not(IsClosed) &amp;&amp; CloseDate &lt; Today()</errorConditionFormula>
+        <errorDisplayField>StageName</errorDisplayField>
+        <errorMessage>You cannot save an open opportunity with a Close Date in the past</errorMessage>
+    </validationRules>
+</CustomObject>

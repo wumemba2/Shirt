@@ -1,0 +1,16 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "hasSampleData":true,
+    "adminEmail": "tommy4brown@gmail.com",
+    "username": "spdex450tb12@stonyp.com",
+  "features": ["EnableSetPasswordInApi"],
+    "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

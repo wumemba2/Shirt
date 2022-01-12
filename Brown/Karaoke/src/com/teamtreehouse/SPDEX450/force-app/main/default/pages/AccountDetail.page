@@ -1,0 +1,23 @@
+<apex:page standardController="Account" lightningStylesheets="true">
+    <apex:tabpanel>
+        <apex:tab label="Details" id="tabdetails">
+            <c:Disclaimer level="2" recordname="{!Account.Name}">
+            </c:Disclaimer>
+            <apex:detail title="Account Detail" subject="{!account.Id}"
+            relatedList="false" inlineEdit="true"/>
+        </apex:tab>
+        <apex:tab label="Contacts" id="tabContact">
+            <apex:relatedList subject="{!account}" list="Contacts">
+            </apex:relatedList>
+        </apex:tab>
+        <apex:tab label="Opportunities" id="tabOpp">
+            <apex:relatedList subject="{!account}" list="Opportunities">
+            </apex:relatedList>
+        </apex:tab>
+        <apex:tab label="Invoices" id="tabInvoice">
+            <apex:relatedList subject="{!account}" list="Invoices__r">
+            </apex:relatedList>
+        </apex:tab>
+    </apex:tabpanel>
+   
+</apex:page>

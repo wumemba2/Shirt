@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>AppMenu</name>
+    <members>AppSwitcher</members>
+  </types>
+  <types>
+    <name>CustomApplication</name>
+    <members>GenWatt_Finance</members>
+  </types>
+  <types>
+    <name>ApexClass</name>
+    <members>dxSample</members>
+    <members>dxsample2</members>
+  </types>
+  <types>
+    <name>ContentAsset</name>
+    <members>genwattlogo</members>
+  </types>
+  <types>
+    <name>FlexiPage</name>
+    <members>GenWatt_Finance_UtilityBar</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Account-Account Layout</members>
+    <members>Invoice__c-Invoice Layout</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Account.Open_Opportunities__c</members>
+    <members>Account.Won_Opportunities__c</members>
+    <members>Invoice__c.Account__c</members>
+    <members>Invoice__c.Amount_Paid__c</members>
+    <members>Invoice__c.Amount__c</members>
+    <members>Invoice__c.Balance__c</members>
+    <members>Invoice__c.Billing_Contact__c</members>
+    <members>Invoice__c.Due_Date__c</members>
+    <members>Invoice__c.Opportunity__c</members>
+    <members>Invoice__c.Status__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Invoice__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Invoice__c.All</members>
+  </types>
+  <types>
+    <name>ValidationRule</name>
+    <members>Opportunity.Force_Future_Close_Date</members>
+  </types>
+  <types>
+    <name>ProfilePasswordPolicy</name>
+    <members>GenWatt_Finance_profilePasswordPolicy1626121424687</members>
+  </types>
+  <types>
+    <name>ProfileSessionSetting</name>
+    <members>GenWatt_Finance_profileSessionSetting1626121424826</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+    <members>GenWatt Finance</members>
+    <members>ReadOnly</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>Security</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Invoice__c</members>
+  </types>
+  <types>
+    <name>Workflow</name>
+    <members>Opportunity</members>
+  </types>
+  <types>
+    <name>WorkflowFieldUpdate</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowKnowledgePublish</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowTask</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowAlert</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowSend</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowOutboundMessage</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowRule</name>
+    <members>*</members>
+  </types>
+  <version>52.0</version>
+</Package>
