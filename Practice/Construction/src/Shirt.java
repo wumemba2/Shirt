@@ -1,5 +1,3 @@
-package Practice.Construction.src;
-
 public class Shirt {
     
     private String color;
